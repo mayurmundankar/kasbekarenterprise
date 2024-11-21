@@ -83,6 +83,9 @@ function Contact() {
           </div>
         </div>
       </div>
+      <footer className="mt-16 text-center text-gray-600 text-sm">
+        <p>Copyright © Kasbekar Enterprise | 2024 | Developed with 💖 by Mayur M</p>
+      </footer>
     </div>
   );
 }
