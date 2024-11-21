@@ -1,11 +1,12 @@
 import React from 'react';
 import { Link } from 'react-scroll';
+import heroImage from './hero.jpg';  // Import the image
 
 function Hero() {
   return (
-    <div 
+    <div
       className="relative h-screen flex items-center justify-center bg-cover bg-center bg-no-repeat"
-      style={{ backgroundImage: "url('/hero.jpg')" }}
+      style={{ backgroundImage: `url(${heroImage})` }}  // Use the imported image
     >
       <div className="absolute inset-0 bg-black opacity-50"></div>
       <div className="relative z-10 text-center text-white px-4">
